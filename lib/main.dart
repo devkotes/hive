@@ -7,6 +7,8 @@ import 'package:hive/hive.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  /// TESTING VSCODE ONLINE
+
   var appDocument = await path.getApplicationDocumentsDirectory();
   Hive.init(appDocument.path);
   Hive.registerAdapter(MonsterAdapter());
